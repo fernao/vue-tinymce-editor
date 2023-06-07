@@ -9,7 +9,7 @@
     import tinymce from 'tinymce/tinymce';
 
     // A theme is also required
-    import 'tinymce/themes/modern/theme';
+    import 'tinymce/themes/silver/theme';
 
     // Any plugins you want to use has to be imported
     import 'tinymce/plugins/advlist';
@@ -56,7 +56,7 @@
     import 'tinymce/plugins/toc';
     import 'tinymce/plugins/visualchars';
     
-    import 'tinymce/skins/lightgray/skin.min.css'
+    import 'tinymce/skins/ui/oxide/skin.min.css'
    
     export default {
         name: 'tinymce',
