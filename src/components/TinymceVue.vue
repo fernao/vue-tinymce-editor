@@ -10,6 +10,9 @@
 
     // A theme is also required
     import 'tinymce/themes/silver/theme';
+    import 'tinymce/skins/ui/oxide/skin.min.css'
+    import 'tinymce/skins/content/default/content.css'
+    import 'tinymce/icons/default/icons'
 
     // Any plugins you want to use has to be imported
     import 'tinymce/plugins/advlist';
@@ -56,10 +59,6 @@
     import 'tinymce/plugins/toc';
     import 'tinymce/plugins/visualchars';
     
-    import 'tinymce/skins/ui/oxide/skin.min.css'
-    import 'tinymce/skins/content/default/content.css'
-    import 'tinymce/icons/default/icons'
- 
     export default {
         name: 'tinymce',
         props: { 
